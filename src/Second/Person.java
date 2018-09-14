@@ -38,4 +38,13 @@ public class Person {
     private static void Println(String out) {
         println(out);
     }
+
+    @Override
+    public String toString() {
+        return "Person{" +
+                "firstName='" + firstName + '\'' +
+                ", secondName='" + secondName + '\'' +
+                ", age=" + age +
+                '}';
+    }
 }
