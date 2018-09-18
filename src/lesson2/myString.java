@@ -12,10 +12,13 @@ public class myString {
         }
         return result;
     }
+    public static void mymethod() {
 
+    }
 
     public static void main(String[] args) {
         myString my = new myString();
+        myString.mymethod();
         System.out.println(my.everyNth("Yarmolenko", 2));
         System.out.println(my.everyNth("Yarmolenko", 3));
         System.out.println(my.everyNth("Yarmolenko", 4));

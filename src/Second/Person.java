@@ -6,8 +6,8 @@ public class Person {
     int age;
     private static int count = 0;
 
-    public Person(String firstName, String secondName, int age) {
-        this.firstName = firstName;
+    public Person(String first, String secondName, int age) {
+        firstName = first;
         this.secondName = secondName;
         this.age = age;
         count++;

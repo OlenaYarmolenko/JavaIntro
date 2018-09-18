@@ -4,5 +4,6 @@ public class First {
         int i=1;
         int a=2+2;
         System.out.println(out + i + a);
+
     }
 }
